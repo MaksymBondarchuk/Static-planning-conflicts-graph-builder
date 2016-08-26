@@ -7,7 +7,12 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid x:Name="MainGrid" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="Build" Content="Build" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Click="Build_Click"/>
+        <Slider x:Name="SliderSize" HorizontalAlignment="Left" Margin="80,3,0,0" VerticalAlignment="Top" Width="245" Minimum="10" Maximum="30"/>
+        <Button x:Name="ButtonClear" Content="Clear" HorizontalAlignment="Left" Margin="330,9,0,0" VerticalAlignment="Top" Click="ButtonClear_Click"/>
+        <CheckBox x:Name="CheckBoxType" Content="Check for necessary" HorizontalAlignment="Left" Margin="400,5,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.975,0.625"/>
+        <Canvas x:Name="CanvasGraph" Margin="10,52,10,10" SizeChanged="CanvasGraph_SizeChanged"/>
 
     </Grid>
 </Page>
