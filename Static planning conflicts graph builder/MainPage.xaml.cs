@@ -16,7 +16,7 @@ namespace Static_planning_conflicts_graph_builder
     /// </summary>
     public sealed partial class MainPage
     {
-        private Schedule Schedule { get; set; } = new Schedule();
+        private Schedule Schedule { get; } = new Schedule();
         private const int TestsCount = 100;
 
         // Colors for graphs
