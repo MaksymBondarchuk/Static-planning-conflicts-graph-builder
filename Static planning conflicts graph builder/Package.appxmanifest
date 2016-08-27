@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="d007db0e-de45-4f0e-9b07-7563bf7c80c0" Publisher="CN=bonda" Version="1.0.0.0" />
+  <Identity Name="12196MaxBondarchuk.Staticplanningconflictsgraphbui" Publisher="CN=5F94BBA0-3CF4-4801-9A23-3925577EACDF" Version="1.1.0.0" />
   <mp:PhoneIdentity PhoneProductId="d007db0e-de45-4f0e-9b07-7563bf7c80c0" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Static planning conflicts graph builder</DisplayName>
-    <PublisherDisplayName>bonda</PublisherDisplayName>
+    <PublisherDisplayName>MaxBondarchuk</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
